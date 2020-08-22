@@ -10,32 +10,62 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <title>Erin V. Leal</title>
 </head>
 
 <body>
-  <div class="tbd">
-    <nav>
-      <div class="nameeee">Erin Leal</div>
-
-      <a> Contact </a>
-      <a> Portfolio </a>
-      <a> About </a>
-
-    </nav>
-  </div>
+  <!--navbar is basically from w3 schools example because aside from the color it's pretty much what I was wanting anyways. May play with it more if I get time.-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Erin V. Leal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
   <div class="container">
-    <div class="headline">
-      About me
+    <div class="row">
+      <div class="col-md-4">
+        <h2> About Me </h2>
+        <img src="Assets\Images\pic.jpg" class="img-fluid" alt="A picture of me.">
+      </div>
     </div>
-    <div>
-      Image
+    <div class="row">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi enim fugit ad facilis mollitia modi laborum
+          omnis iste totam ipsa ipsum, esse illum voluptatum, officia, exercitationem nobis fuga quo dignissimos.</p>
+      </div>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed culpa deserunt. Illo minus, ipsam alias
-      voluptates quam cupiditate ea vero exercitationem dicta rerum quibusdam velit beatae, a voluptatibus officia!</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consectetur reprehenderit, nobis consequatur iure asperiores fugit provident eligendi quaerat soluta perferendis totam minima distinctio quam ullam qui temporibus exercitationem rerum!</p>
+    <div class="row">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptate accusantium inventore, delectus quasi animi dicta repellat fugit dolorem maxime assumenda illo aperiam tempora laboriosam placeat consectetur ullam tempore id!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Bottom Text</p>
+      </div>
+    </div>
   </div>
 
 
@@ -52,6 +82,6 @@
     crossorigin="anonymous"></script>
 </body>
 
-<footer>blank</footer>
+
 
 </html>
