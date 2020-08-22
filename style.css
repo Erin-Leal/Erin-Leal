@@ -1,0 +1,26 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
+  body {
+      color:whitesmoke;
+      background-image: url("assets/images/bg.jpg");
+    background-color: #cccccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+  #needpad {
+    padding-bottom: 15px;
+  }
+
+  .container {
+      margin: 35px;
+
+  }
