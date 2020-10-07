@@ -16,11 +16,42 @@
 
   }
 
-  #needpad {
-    padding-bottom: 15px;
+  .face {
+    max-width: 300px;
   }
 
-  .container {
-      margin: 35px;
+  .textstuff {
+    text-align: center;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left-color: brown;
+    border-right-color: brown;
+    border-bottom-color: brown;
+    padding-bottom: 30px;
+  }
 
+  .cardfix {
+    color: black;
+  }
+
+  #portsection {
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .footcenter{
+    text-align: center;
+  }
+
+  .contactstuff {
+    text-align: center;
+    border: brown;
+    border-style: solid;
+    padding: 20px;
+    background-color: #cccccc;
+  }
+
+  #quickfix{
+    padding-top: 50px;
   }
