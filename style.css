@@ -15,24 +15,9 @@
     background-size: cover;
 
   }
-
-  .face {
-    max-width: 300px;
-  }
-
   .textstuff {
     text-align: center;
-    border-left: solid;
-    border-right: solid;
-    border-bottom: solid;
-    border-left-color: brown;
-    border-right-color: brown;
-    border-bottom-color: brown;
     padding-bottom: 30px;
-  }
-
-  .cardfix {
-    color: black;
   }
 
   #portsection {
@@ -40,18 +25,67 @@
     justify-content: space-around;
   }
 
-  .footcenter{
+  .footcenter {
     text-align: center;
   }
 
   .contactstuff {
-    text-align: center;
-    border: brown;
-    border-style: solid;
     padding: 20px;
     background-color: #cccccc;
   }
 
-  #quickfix{
+  #quickfix {
     padding-top: 50px;
   }
+
+  .thickbar {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: xx-large;
+  }
+
+  .fontboost {
+    font-size: large;
+  }
+
+  .nocenter {
+    text-align: left;
+  }
+
+  .facepad {
+    padding-bottom: 20px;
+  }
+
+  .toppad {
+    padding-top: 40px;
+  }
+
+  .navbar-coloring {
+    background-color: #800000;
+    background-image: none;
+    background-repeat: no-repeat;
+   }
+  
+   .secret-pad {
+     color: #343a40;
+   }
+  
+   .easteregg {
+     color: #800000;
+   }
+
+   .thicksides {
+padding-left: 30px;
+padding-right: 30px;
+   }
+
+   .portpad {
+padding-top: 20px;
+padding-bottom: 20px;
+   }
+
+   .contborder {
+     border-color: #007bff;
+     border-style: solid;
+     border-width: 1px;
+   }

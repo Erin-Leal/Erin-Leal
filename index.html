@@ -16,7 +16,7 @@
 
 <body>
   <!--navbar is basically from w3 schools example because aside from the color it's pretty much what I was wanting anyways. May play with it more if I get time.-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark thickbar navbar-coloring">
     <a class="navbar-brand" href="#">Erin V. Leal</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -38,24 +38,35 @@
 
   <div class="container textstuff bg-dark">
     <div class="row">
-      <div class="col-12">
-        <h2> About Me </h2>
+      <div class="col-md-12 thickbar">
+        <h1> About Me </h1>
       </div>
     </div>
 
-    <div class="row">
-      <img src="assets\images\pic.jpg" class="col-4 face" alt="A picture of me.">
-      <div class="col-8 nopad buffer">
-        <p>I'm an aspiring Full-Stack web developer currently studying with the University of Arizona's coding bootcamp.
+    <section class="row">
+      <img src="assets\images\pic.jpg" class="col-md-4 img-fluid facepad" alt="A picture of me.">
+      <div class="col-md-1"></div>
+      <div class="col-md-7 fontboost nocenter">
+        <p>I'm an aspiring Full-Stack web developer with a preference for the front end currently studying with the University of Arizona's coding bootcamp.
           I've always had a profound interest in tech and am excited to get into a growing industry and hone my skills
           further. I'm always excited to learn new things and will definitely continue through self study and maybe even
           branch out into other forms of programming after this, because I seem to love a good headache.</p>
+          <div class= "secret-pad">...</div>
         <p>Computers and everything surrounding them has always been a huge interest of mine. I take pride in everything
-          I do and am always trying to put my best foot forward and improve
-          however I can. It can even take me to extremes at times, but pushing my limits is part of the challenge. I do
+          I do and am always trying to put my best foot forward and improve however I can. It can even take me to extremes at times, but pushing my limits is part of the challenge. I do
           it within reason but I always give 110%.</p>
       </div>
-    </div>
+    </section>
+
+    <section class="row">
+      <div class="col-md-12 fontboost facepad toppad">
+        <h3 class="facepad">Experience/skills</h3>
+        <li class="facepad">Soon to be certified through the University of Arizona's web development bootcamp.</li>
+        <li class="facepad">Excellent leadership and organizational skills.</li>
+        <li class="facepad">A particular eye for detail and intuitive sense of design.</li>
+        <li class="facepad">I've used computers extensively for most of my life, and am well versed in doing my own troubleshooting.</li>
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -70,9 +81,9 @@
       crossorigin="anonymous"></script>
 </body>
 
-<footer class="footer footcenter bg-dark">
+<footer class="footer footcenter navbar-coloring">
   <div class="container">
-    <span>bottom text</span>
+    <span class="easteregg">Found me</span>
   </div>
 </footer>
 

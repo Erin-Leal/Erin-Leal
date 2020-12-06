@@ -13,7 +13,7 @@
   <title>Erin V. Leal</title>
 </head>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm navbar-dark thickbar navbar-coloring">
   <a class="navbar-brand" href="#">Erin V. Leal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -34,66 +34,89 @@
 </nav>
 
 
-<body>
-  <div class="container textstuff bg-dark">
+<body class="fontboost">
+  <div class="container textstuff bg-dark thicksides">
     <div class="row">
-      <div class="col-12">
-        <h2>Portfolio</h2>
+      <div class="col-12 portpad">
+        <h1>Portfolio</h1>
       </div>
     </div>
-    <div class="row" id="portsection">
-      <div class="card cardfix" style="width: 18rem;">
+    <div class="row card-deck" id="portsection">
+
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header navbar-coloring">
+          <h4 class="text-white">My portfolio site</h4>
+        </div>
         <img src="https://media.giphy.com/media/eHWPLQqwFim7FhpTBe/giphy.gif" class="card-img-top"
           alt="Gif of someone pointing at their eyes, and then to you.">
-        <div class="card-body">
-          <p class="card-text">
-            <a href="https://github.com/Erin-Leal/Erin-Leal">My portfolio site, you're on it right now!</a>
-          </p>
+        <div class="card-body navbar-coloring">
+          <p class="card-text">Github repo: <a href="https://github.com/Erin-Leal/Erin-Leal">Click Here</a></p>
+          <p class="card-text">Live deployment: You're on it right now!</p>
+          <p class="card-text">Description: Everything you see on these pages was built from the ground up by me, and
+            it's grown with my skills.</p>
         </div>
       </div>
 
-      <div class="card cardfix" style="width: 18rem;">
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header navbar-coloring">
+          <h4 class="text-white">Website refactor</h4>
+        </div>
         <img src="assets\images\refactor.jpg" class="card-img-top"
           alt="A partial screenshot of the deployed application.">
-        <div class="card-body">
-          <p class="card-text">
-            <a href="https://github.com/Erin-Leal/Website-refactor">A simple website refactor, turned out pretty clean.</a>
+        <div class="card-body navbar-coloring">
+          <p class="card-text">Github repo: <a href="https://github.com/Erin-Leal/Website-refactor">Click Here</a></p>
+          <p class="card-text">Live deployment: <a href="https://github.com/Erin-Leal/Website-refactor">Click Here</a>
           </p>
+          <p class="card-text">Description: One of my first assignments, the website was refactored to follow semantic
+            HTML5 to obtain a higher standard of code.</p>
         </div>
       </div>
-
-      <div class="card cardfix" style="width: 18rem;">
-        <img src="assets\images\proj1.jpg" class="card-img-top" alt="Partial screenshot of the live project.">
-        <div class="card-body">
-          <p class="card-text">
-            <a href="https://github.com/Jdilla1212/Flying-Project">My first group project.</a>
-          </p>
-        </div>
-      </div>
-
     </div>
-  </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+    <div class="row card-deck" id="portsection">
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header navbar-coloring">
+          <h4 class="text-white">Project 1</h4>
+        </div>
+        <img src="assets\images\proj1.jpg" class="card-img-top"
+          alt="A partial screenshot of the deployed application.">
+        <div class="card-body navbar-coloring">
+          <p class="card-text">Github repo: <a href="https://github.com/Jdilla1212/Flying-Project">Click Here</a></p>
+          <p class="card-text">Live deployment: <a href="https://jdilla1212.github.io/Flying-Project/">Click Here</a></p>
+          <p class="card-text">Description: My first real collaborative work, making proper use of Javascript and APIs together to make something new.</p>
+        </div>
+      </div>
+
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-header navbar-coloring">
+          <h4 class="text-white">Project 2</h4>
+        </div>
+        <img src="assets\images\proj2.jpg" class="card-img-top"
+          alt="A partial screenshot of the deployed application.">
+        <div class="card-body navbar-coloring">
+          <p class="card-text">Github repo: <a href="https://github.com/Erin-Leal/Project-2-Dionysus">Click Here</a></p>
+          <p class="card-text">Live deployment: <a href="https://proj2-dionysus.herokuapp.com/">Click Here</a></p>
+          <p class="card-text">Description: This project was complete with a front and back end, utilizing our own SQL database in a proper MVC development format with a sleek and simple design made almost entirely by me.</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
 </body>
 
-
-<footer class="footer footcenter bg-dark">
+<footer class="footer footcenter navbar-coloring">
   <div class="container">
-    <span>bottom text</span>
+    <span class="easteregg">Found me</span>
   </div>
 </footer>
-
-
 
 </html>
